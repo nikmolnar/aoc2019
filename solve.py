@@ -28,10 +28,8 @@ def main():
         for day in range(1, 32):
             try:
                 solve_day(day)
-            except ImportError:
+            except (ImportError, OSError):
                 break
-
-
 
 
 if __name__ == '__main__':
