@@ -3,6 +3,7 @@ class Orbit:
         self.name = name
         self.parent = parent
 
+
 class Solution:
     def count_orbits(self, orbit):
         if orbit.parent is None:
